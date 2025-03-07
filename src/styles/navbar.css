@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #72bf9c;
+}
+
+.custom-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent !important;
+    border: none;
+    z-index: 10;
+}
+
+.navbar-color {
+    background-color: rgba(0, 0, 0, 0.11) !important;
+
+}
+
+.button-nav {
+    width: 15% !important;
+    background-color: var(--primary-color) !important;
+    border: none !important;
+}

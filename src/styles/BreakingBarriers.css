@@ -1,0 +1,51 @@
+.breaking-barriers-section {
+    padding: 60px 0;
+    background:
+        linear-gradient(90deg,
+            #49C7AB,
+            #FFFFFF),
+        url('../assets/barriers.gif') center/cover no-repeat;
+    background-blend-mode: overlay;
+}
+
+
+
+.barriers-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2a2a2a;
+    margin-bottom: 1rem;
+}
+
+.barriers-mission {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #475569;
+}
+
+.barriers-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #475569;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+}
+
+.stat-block {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #49c7ab;
+    margin-bottom: 0.3rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #2a2a2a;
+    margin: 0;
+}

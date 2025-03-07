@@ -1,0 +1,44 @@
+.gradient-banner {
+    padding: 60px 0;
+    background:
+        linear-gradient(100deg, rgba(73, 199, 171, 0.7), rgba(255, 255, 255, 0.7)),
+        url('../assets/banners.gif') center/cover no-repeat;
+    color: #000;
+}
+
+.banner-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1E293B;
+    margin-bottom: 0.75rem;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #1E293B;
+    margin-bottom: 1rem;
+}
+
+.banner-description {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+.banner-button {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+}
+
+.banner-button .arrow {
+    margin-left: 0.5rem;
+}
