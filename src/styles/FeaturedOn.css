@@ -1,0 +1,54 @@
+.featured-on-section {
+    background-color: #fff;
+}
+
+/* Subtitle: "AS SEEN" */
+.as-seen-subtitle {
+    font-size: 24px;
+    font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+    color: #49C7AB;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.featured-on-title {
+    font-size: 52px;
+    font-weight: 500;
+    color: #1E293B;
+}
+
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+    white-space: nowrap;
+}
+
+/* The inner container that scrolls continuously */
+.marquee-content {
+    display: flex;
+    width: calc(200%);
+    animation: marquee-left-to-right 10s linear infinite;
+}
+
+/* Keyframes for continuous scrolling:
+     The content moves left by 63% of its width (one full set of logos)
+     so that the duplicate seamlessly follows. */
+@keyframes marquee-left-to-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-63%);
+    }
+}
+
+/* Logo styling */
+.logo-img {
+    max-width: 70px;
+    margin-left: 70px;
+    height: auto;
+    object-fit: contain;
+}

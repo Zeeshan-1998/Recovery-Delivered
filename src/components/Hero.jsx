@@ -15,7 +15,7 @@ const Hero = () => {
           Addiction
         </h1>
         <Button className="button-hero mt-4">
-          Download The App Today
+          Download The App Today <span className="arrow">↗</span>
         </Button>
       </Container>
     </section>
