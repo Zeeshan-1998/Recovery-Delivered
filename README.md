@@ -14,9 +14,12 @@
 
 ### 1. Clone the repository
 git clone https://github.com/Zeeshan-1998/Recovery-Delivered.git
+
 cd Recovery-Delivered
+
 ### 2. Install dependencies
 npm install
+
 ### 3. Start the development server
 npm run dev
 
