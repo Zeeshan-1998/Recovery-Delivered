@@ -1,0 +1,94 @@
+.suboxone-steps-section {
+    background: linear-gradient(180deg,
+            rgba(230, 250, 245, 1) 0%,
+            rgba(207, 244, 231, 1) 100%);
+    padding: 70px 0;
+    position: relative;
+}
+
+.steps-subtitle {
+    font-size: 24px;
+    font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    color: #49C7AB;
+}
+
+.steps-title {
+    font-size: 52px;
+    font-weight: 500;
+    color: #1E293B;
+    margin-bottom: 1rem;
+}
+
+.steps-download-btn {
+    font-family: "Frank Ruhl Libre" !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 18px !important;
+    padding: 15px 15px  !important;
+    border-radius: 8px !important;
+    background-color: #49C7AB !important;
+    border: none !important;
+}
+
+.steps-download-btn:hover {
+    background-color: #3aa58d;
+}
+
+.steps-orb-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.steps-orb-background {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 380px;
+    height: 380px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: 
+        radial-gradient(circle at center, 
+            rgba(73, 199, 171, 0.15) 0%,
+            rgba(207, 244, 231, 0) 90%
+        ),
+        url('../assets/suboxone-gif.gif') center/cover no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+    color: #000;
+    mix-blend-mode: multiply;
+}
+
+.step-card {
+    background-color: #fff;
+    border: 1px solid #49C7AB;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    text-align: start;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1E293B;
+    line-height: 150%;
+    margin-bottom: 1rem;
+}
+
+.step-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #475569;
+    line-height: 150%;
+}
