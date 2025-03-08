@@ -1,0 +1,76 @@
+.map-section {
+    background-color: #fff;
+}
+
+.map-pin-icon {
+    width: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.states-subtitle {
+    font-family: 'Cabinet Grotesk';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #49C7AB;
+    margin-bottom: 0.5rem;
+}
+
+.map-title {
+    font-family: 'Cabinet Grotesk';
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #1E293B;
+    margin-bottom: 1rem;
+}
+
+.map-description {
+    font-family: 'Cabinet Grotesk';
+    font-size: 20px;
+    font-weight: 400;
+    color: #475569;
+    max-width: 72%;
+    margin: 0 auto;
+    line-height: 160%;
+}
+
+.toronto-image {
+    border: 3px solid #e2e8f0;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.toronto-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.toronto-image-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid #fff;
+    pointer-events: none;
+}
+
+.toronto-title {
+    font-size: 31.56px;
+    line-height: 31.56px;
+    font-family: 'Cabinet Grotesk';
+    font-weight: 700;
+    color: #000000;
+}
+
+.toronto-address {
+    font-family: 'Cabinet Grotesk';
+    font-weight: 500;
+    font-size: 18.41px;
+    line-height: 31.56px;
+    text-decoration: underline;
+    color: #00927C;
+}
