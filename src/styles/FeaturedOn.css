@@ -2,10 +2,9 @@
     background-color: #fff;
 }
 
-/* Subtitle: "AS SEEN" */
 .as-seen-subtitle {
     font-size: 24px;
-    font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: "Cabinet Grotesk";
     color: #49C7AB;
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -25,7 +24,6 @@
     white-space: nowrap;
 }
 
-/* The inner container that scrolls continuously */
 .marquee-content {
     display: flex;
     width: calc(200%);
@@ -45,7 +43,6 @@
     }
 }
 
-/* Logo styling */
 .logo-img {
     max-width: 70px;
     margin-left: 70px;

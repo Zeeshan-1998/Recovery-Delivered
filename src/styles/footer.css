@@ -34,7 +34,7 @@
 
 .footer-logo {
   color: #50A3B1;
-  font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: "Cabinet Grotesk";
   font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
@@ -43,7 +43,7 @@
 
 .footer-description {
   color: #475569;
-  font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: "Cabinet Grotesk";
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -70,7 +70,7 @@
 
 .footer-heading {
   color: #49C7AB;
-  font-family: "Frank Ruhl Libre", -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: "Frank Ruhl Libre";
   font-size: 24px;
   margin-bottom: 10px;
   font-weight: 400;
@@ -80,7 +80,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: "Cabinet Grotesk";
   font-weight: 400;
 }
 

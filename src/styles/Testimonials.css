@@ -1,0 +1,89 @@
+.testimonials-section {
+    background-color: #fff;
+}
+
+.clients-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 0.5rem;
+    color: #49C7AB;
+}
+
+.testimonials-title {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: "Cabinet Grotesk";
+    color: #1E293B;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    font-family: 'Cabinet Grotesk';
+    font-weight: 400;
+    color: #475569;
+    line-height: 150%;
+}
+
+.arrow-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    color: #000;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow-icon:hover {
+    border: 1px solid #49c7ab;
+    background-color: #49c7ab;
+    color: #fff;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.tilt-card {
+    transform: rotate(0deg) scale(1.03);
+}
+
+.tilt-card:hover {
+    transform: rotate(-2deg) !important;
+    transition: transform 0.3s ease !important;
+}
+
+.rating-stars {
+    font-size: 1.2rem;
+    color: #f6c944;
+    margin-bottom: 1rem;
+}
+
+.testimonial-footer {
+    margin-top: 1rem;
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-name {
+    font-family: 'Cabinet Grotesk';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #1E293B;
+}
