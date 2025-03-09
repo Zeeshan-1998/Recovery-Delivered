@@ -29,6 +29,13 @@
     width: 18% !important;
     background-color: var(--primary-color) !important;
     border: none !important;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-hero:hover {
+    /* Change to a slightly darker teal and scale up a bit */
+    background-color: #3ea294 !important;
+    transform: scale(1.05);
 }
 
 .button-hero .arrow {

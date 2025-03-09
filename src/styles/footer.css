@@ -3,7 +3,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
-  font-family: "Cabinet Grotesk", -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: "Cabinet Grotesk";
 }
 
 .footer-top {
@@ -35,9 +35,9 @@
 .footer-logo {
   color: #50A3B1;
   font-family: "Cabinet Grotesk";
-  font-size: 56px;
+  font-size: 76.52px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 76.52px;
   margin-bottom: 20px;
 }
 
@@ -45,7 +45,7 @@
   color: #475569;
   font-family: "Cabinet Grotesk";
   font-size: 18px;
-  line-height: 26px;
+  line-height: 30px;
   font-weight: 400;
   max-width: 500px;
 }
@@ -71,15 +71,19 @@
 .footer-heading {
   color: #49C7AB;
   font-family: "Frank Ruhl Libre";
+  line-height: 135%;
   font-size: 24px;
   margin-bottom: 10px;
   font-weight: 400;
 }
 
 .footer-links {
+  color: #475569;
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 18px;
+  line-height: 30px;
   font-family: "Cabinet Grotesk";
   font-weight: 400;
 }
@@ -116,8 +120,11 @@
 }
 
 .footer-phone-text {
+  font-family: 'Cabinet Grotesk';
+  font-weight: 400;
+  line-height: 30px;
   color: #475569;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .social-heading {
@@ -135,10 +142,18 @@
   width: 20px;
   height: auto;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-social-icon:hover {
+  transform: scale(1.1);
 }
 
 .footer-ropstam {
   color: #475569;
+  font-family: 'Cabinet Grotesk';
+  font-weight: 400;
+  line-height: 30px;
   font-size: 14px;
   margin-top: 20px;
 }
@@ -151,6 +166,9 @@
 
 .footer-copyright {
   color: #475569;
+  font-family: 'Cabinet Grotesk';
+  font-weight: 400;
+  line-height: 30px;
   font-size: 14px;
   text-align: left;
   margin-top: 10px;

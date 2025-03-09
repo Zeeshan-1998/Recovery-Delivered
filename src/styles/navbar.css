@@ -20,6 +20,12 @@
     width: 15% !important;
     background-color: var(--primary-color) !important;
     border: none !important;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-nav:hover {
+    background-color: #5ea88b !important;
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

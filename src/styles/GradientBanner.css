@@ -6,6 +6,17 @@
     color: #000;
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .banner-subtitle {
     font-size: 1rem;
     font-weight: 500;
@@ -13,6 +24,9 @@
     letter-spacing: 1px;
     color: #1E293B;
     margin-bottom: 0.75rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 2s;
 }
 
 .banner-title {
@@ -20,6 +34,9 @@
     font-weight: 500;
     color: #1E293B;
     margin-bottom: 1rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 2s;
 }
 
 .banner-description {
@@ -37,6 +54,12 @@
     color: #fff;
     border: none;
     padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
 }
 
 .banner-button .arrow {

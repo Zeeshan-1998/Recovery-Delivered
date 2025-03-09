@@ -27,14 +27,16 @@
     font-weight: 700 !important;
     font-size: 18px !important;
     line-height: 18px !important;
-    padding: 15px 15px  !important;
+    padding: 15px 15px !important;
     border-radius: 8px !important;
     background-color: #49C7AB !important;
     border: none !important;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .steps-download-btn:hover {
-    background-color: #3aa58d;
+    background-color: #3aa58d !important;
+    transform: scale(1.05);
 }
 
 .steps-orb-wrapper {
