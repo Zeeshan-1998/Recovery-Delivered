@@ -1,9 +1,7 @@
 .breaking-barriers-section {
     padding: 60px 0;
     background:
-        linear-gradient(90deg,
-            #49C7AB,
-            #FFFFFF),
+        linear-gradient(90deg, #49C7AB, #FFFFFF),
         url('../assets/barriers.gif') center/cover no-repeat;
     background-blend-mode: overlay;
 }
@@ -46,4 +44,40 @@
     font-size: 1rem;
     color: #2a2a2a;
     margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .breaking-barriers-section {
+        padding: 40px 0;
+    }
+    .barriers-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .barriers-mission {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .barriers-description {
+        font-size: 0.9rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .stat-block {
+        width: 80%;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    .stat-value {
+        font-size: 1.5rem;
+    }
+    .stat-label {
+        font-size: 0.9rem;
+    }
 }
