@@ -34,3 +34,22 @@
 .button-hero .arrow {
     margin-left: 0.5rem;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-content {
+        padding-top: 5rem;
+        text-align: center;
+    }
+    .button-hero {
+        width: 80% !important;
+        margin: 0 auto;
+        display: block;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+}
