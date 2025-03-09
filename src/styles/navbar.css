@@ -14,11 +14,19 @@
 
 .navbar-color {
     background-color: rgba(0, 0, 0, 0.11) !important;
-
 }
 
+/* Default button styling */
 .button-nav {
     width: 15% !important;
     background-color: var(--primary-color) !important;
     border: none !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .button-nav {
+        width: 100% !important;
+        margin-top: 10px;
+    }
 }

@@ -17,15 +17,15 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="d-flex w-100 justify-content-center align-items-center">
-          <Nav className="mx-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/">About Us</Nav.Link>
-            <Nav.Link as={Link} to="/">Owners</Nav.Link>
-            <Nav.Link as={Link} to="/">Tenants</Nav.Link>
-            <Nav.Link as={Link} to="/">Properties</Nav.Link>
-          </Nav>
+            <Nav className="mx-auto">
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/">About Us</Nav.Link>
+              <Nav.Link as={Link} to="/">Owners</Nav.Link>
+              <Nav.Link as={Link} to="/">Tenants</Nav.Link>
+              <Nav.Link as={Link} to="/">Properties</Nav.Link>
+            </Nav>
           </div>
-          <Button  as={Link} to="/" className="button-nav">
+          <Button as={Link} to="/" className="button-nav">
             Start Treatment
           </Button>
         </Navbar.Collapse>
