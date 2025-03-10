@@ -62,6 +62,7 @@
 .tilt-card:hover {
     transform: rotate(-2deg) !important;
     transition: transform 0.3s ease !important;
+    cursor: pointer;
 }
 
 .rating-stars {
